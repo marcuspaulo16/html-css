@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+    background-color: #43dd88;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to top, #299436, #2da53b, #43dd88) ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+}
+
+nav {
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.pheader {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.linkheader {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+#conteudo {
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px 0px 10px 0px;
+    height: auto;
+    width: 800px;
+}
+
+h2 {
+    padding: 30px;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #43dd88, rgba(255, 255, 255, 0.253) );
+    margin: 30px;
+}
+
+.pdivmain {
+    margin: 30px;
+    text-align: justify;
+}
+
+.divvideo {
+    margin: 0 auto;
+    height: 400px;
+    width: 800px;
+    background-color: #093d0f;
+}
+
+.divoutros {
+    margin: auto;
+    background-color: #8ff0bb;
+    border-radius: 15px;
+    height: 550px;
+    width: 750px;
+}
+
+h4 {
+    font-weight: bold;
+    color: white;
+    background-color: #32a566;
+    border-radius: 15px 15px 0px 0px;
+    padding: 30px;
+}
+
+.divlist {
+    background-color: unset;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 350px;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div {
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red
+}
+
+.div01 {
+    background-color: #B2EB31 ;
+
+}
+
+.div02 {
+    background-color: #EB4C31;
+
+}
+
+.div03 {
+    background-color: #3172EB;
+
+}

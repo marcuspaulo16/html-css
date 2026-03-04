@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+</head>
+<body>
+    <h1>Links Externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público</a> no GitHub</p>
+
+    <!--"target=_blank" abre uma aba no navegador em branco-->
+    <!--"rel=external" sinaliza que o link é externo, fora do site-->
+
+    <p>Você pode acessar o meu <a href="https://youtube.com/cursoemvideo/">canal gratuito</a> no YouTube</p>
+
+    <h1>Link Internos</h1>
+    <p>Primeira pagina do site. Se quiser pode acessar a seguinte <a href="pagina02.html" rel="next">aqui</a></p>
+
+    <!--"rel=next" sinaliza para o google que é a pagina seguinte-->
+
+    <p>Terceira pagina do site. Se quiser acesse <a href="testeempast/pagina03.html" rel="next" target="_self">aqui</a></p>
+
+    <!--"target=_self" sinaliza que não tem a necessidade da criação de uma nova aba, se utiliza dela ou n precisa colocar o target-->
+
+    <h1>Links para Dowloads</h1>
+
+    <ol>
+        <li><a href="livros/01 - História da Internet.pdf" download="livro001"  type="application/pdf">Livro 01</a></li>
+        <li><a href="livros/02 - Como funciona a Internet.pdf">Livro 02</a></li>
+        <li><a href="livros/03 - Como funciona HTML e CSS.pdf">Livro 03</a></li>
+    </ol>
+    <ol>
+        <li><a href="livros/01 - História da Internet.rar">Livro em Zip 01</a></li>
+        <li><a href="livros/02 - Como funciona a Internet.zip" type="application/zip">Livro em Zip 02</a></li>
+        <li><a href="livros/03 - Como funciona HTML e CSS.zip">Livro em Zip 03</a></li>
+    </ol>
+
+    <!--O parâmetro dowload é para o navegador identificar que o arquivo é para download, so que o chrome não identifica esse parâmetro em arquivo .pdf -->
+
+    <!--Arquivos em .pdf as vezes em vez de baixar ele abre o pdf no navegador-->
+
+    <!--Estudar as tags no https://www.iana.org/assignments/media-types/media-types.xhtml-->
+
+    <!--O parâmetro "type=application/zip" tem que ser confirmado no site acima citado-->
+</body>
+</html>

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.responsivo {
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Quando a tela for menor que 600px */
+@media (max-width: 600px) {
+  .responsivo {
+    background-color: red;
+    color: white;
+  }
+}

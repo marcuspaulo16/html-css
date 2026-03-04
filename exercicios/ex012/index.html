@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h2>Inserindo Videos Localmente</h2>
+    <p>Videos em servidor local - meu proprio pc.</p>
+    <video src="midia/videos001.mp4" controls height="300px"></video>
+
+    <!--Forma basica de inserir video-->
+
+    <h2>Inserindo Videos Localmente de Forma "Correta"</h2>
+    <video controls height="250px" poster="midia/Sem título.png" loop>
+        <source src="midia/videos001.mp4" type="video/mp4">
+        <source src="midia/videos001.m4v" type="video/mp4">
+        <source src="midia/videos001.webm" type="video/webm">
+        <source src="midia/videos001.ogv" type="video/ogg">
+    </video>
+    <p>Caso não apareça o video, ele não é compativel com nenhum do navegador do usuário. <a href="midia/videos001.mp4">Dowload aqui</a>.</p>
+
+    <!--A ordem é de extrema importancia. Da mesma forma que ter todos os formatos de video.-->
+
+    <!--O consumo de dados é maior nesse jeito de inserir videos, o cliente tem que estar ciente.-->
+
+    <!--O parâmetro "poster" permite ter uma thumb personalizada para o video, antes do clicar no play do video.-->
+
+    <h2>Inserindo Videos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=e4jO5FlAkKShTgOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rx8EhkXk9zs?si=AXtIo2iKGTWftOuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

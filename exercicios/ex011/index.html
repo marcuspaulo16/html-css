@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h2>Imagem Dinâmica</h2>
+    <p>Abra o navegador em dispositivos diferentes ou reduza e aumente o navegador para observar a mudança!</p>
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="imgs/imgp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/imgm.png" type="image/png">
+        <img src="imgs/imgg.png" alt="img flexivel">
+
+    </picture>
+
+    <!--A tag <source> tem quer acima da tag <img>-->
+    <!--50px acima é o ideal-->
+    <!--A ordem é algo obrigatorio, seja crescente ou decrescente-->
+    
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos reproduzir um áudio em HTML5</p>
+    <audio src="midia/ontheflip.mp3" controls autoplay></audio>
+
+    <!--Os parâmetros "controls" e "autoplay" são necessarios para conseguir fazer o audio tocar-->
+
+    <!--São 3 formatos os aceitos por navegadores, eles são: .MP3 .OGG e .WAV. Contudo o mais indicado é o .mp3 e o .ogg em ultimos casos, o .wav são arquivos maiores e mais pesados principalmente para usuarios em celulares-->
+
+    <audio>
+        <source src="midia/ontheflip.mp3" type="audio/mpeg">
+        <source src="midia/ontheflip.ogg" type="audio/ogg">
+        <source src="midia/ontheflip.wav" type="audio/wav">
+    </audio>
+
+    <!--A ordem do codigo define a ordem de leitura, se n ler em mp3, o seguinte será lido. Se n ler o seguinte, o proximo tentara ser lido-->
+
+    <p>Infelizmente seu navegador não consegue reproduzir audio. Clique <a href="midia/ontheflip.mp3">aqui</a> para baixar o arquivo MP3.</p>
+</body>
+</html>
