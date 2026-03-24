@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+table.tabela01 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse; /* Essa propriedade faz as celulas ficarem unidas */
+}
+
+td.tab01 {
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+table.tabela02 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; /* Essa propriedade faz as celulas ficarem unidas */
+}
+
+td.tab02 {
+    text-align: center;
+    background-color: rgb(248, 84, 84);
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+td.hor01 {
+    text-align: left; /* Alinhamento Horizontal */
+    background-color: rgb(248, 84, 84);
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+td.center02 {
+    vertical-align: bottom; /* Alinhamento Vertical */
+    background-color: rgb(248, 84, 84);
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+td.vert03 {
+    text-align: right; /* Alinhamento Horizontal */
+    background-color: rgb(248, 84, 84);
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
