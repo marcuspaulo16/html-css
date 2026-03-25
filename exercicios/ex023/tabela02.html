@@ -13,6 +13,35 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(36, 36, 36);
+            padding: 10px;
+        }
+
+        /* 
+        
+        NÃO ESTA 100% EM TODOS OS NAVEGADORES, MAS BASICAMENTE É FAZER A CELULA DO TH GRUDAR NO TOPO E ACOMPANHAR A ROLAGEM DO SCROLL ATÉ O FINAL DA TABELA
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: brown;
+        }
+            
+        */
+
+        tbody > tr:nth-child(odd) {                     /* odd = par = 2n-1 */
+            background-color: rgb(126, 126, 126);
+        }
+
+        tbody > tr:nth-child(even) {                    /* even = impar = 2n */
+            background-color: rgb(37, 37, 37);
         }
 
         td, th {
@@ -38,9 +67,11 @@
 </head>
 <body>
     <h1>Uso de Tabelas Grandes</h1>
+
     <!--
         Anatomia de Tabelas Grandes
         <table>
+            <caption></caption> -> Seria a legenda da tabela
             <thead>
                 Aceita <tr>, <td> e <th>
             </thead>
@@ -52,11 +83,15 @@
             </tfoot>
         </table>
     -->
+
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+
+            <!-- scope = 'col' é para identificação que os dados estão na coluna -->
             </tr>
         </thead>
         <tbody>
@@ -171,8 +206,10 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="qtp"><strong>213 421 037</strong></td>
+
+                <!-- scope = 'row' é para identificação que os dados estão na linha -->
             </tr>
         </tfoot>
     </table>
