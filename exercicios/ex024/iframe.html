@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usando o iframe</title>
+    <style>
+        iframe.f2 {
+            height: 100px;
+            width: 500px;
+            
+        }
+    </style>
 </head>
 <body>
     <h1>Iframe em uso</h1>
-    <p>Podemos usar o iframe para exibir sites como o do <iframe><a href="https://www.cursoemvideo.com/cursos/"></a></iframe> (Curso em Video)</p>
+    <p>Podemos usar o iframe para exibir sites como o do 
+        <!-- Tamanho padrão dos iframes é 300x150 -->
+        <iframe src="https://www.cursoemvideo.com/cursos/" frameborder="0">
+
+        </iframe> 
+    <a href="https://www.cursoemvideo.com/cursos/">(Curso em Video)</a>
+    </p>
+
+    <h1>Segundo uso do iframe</h1>
+    <p>O site do google é um exemplo de uso de iframe que não tem visualização devido aos direitos.
+        <!-- O css é prioridade no iframe, qualquer mudança inline é "ignorada" -->
+        <iframe src="https://www.google.com.br" width="1000px" height="1000px" class="f2">
+            <a href="https://www.google.com.br">Mas tem a possibilidade de colocar links nesses casos</a>
+        </iframe>
+    </p>
 
 </body>
 </html>
