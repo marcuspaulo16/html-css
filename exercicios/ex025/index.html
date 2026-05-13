@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Fomulário Teste</h1>
+    <form action="cadastro.php" autocomplete="off"> 
+        <!-- action mostra o enderenço que as informações serão enviadas -->
+        <!-- autocomplete retira a lista de palavras ou numeros ja usados no imput-->
+        <p><label for="idnome">Nome: </label>
+            <!-- for faz uma link entre o input e o titulo dele -->
+            <input type="text" name="nome" id="idnome"> 
+        </p>
+        
+        <p><label for="ididade"> Idade: </label>
+            <input type="text" name="idade" id="ididade"> 
+        </p>
+
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
