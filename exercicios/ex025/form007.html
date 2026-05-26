@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Fomulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estados: </label> <!-- Esse label é elemento -->
+            <select name="estados" id="iest">
+                <optgroup label="Região Sudeste"> <!-- Esse label é atributo -->
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste"> <!-- Esse label é atributo -->
+                    <option value="MG">Salvador</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissões: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof"> <!-- O usuario pode digitar uma opção nessa tag -->
+                <option value="ENC">Encanador</option>
+                <option value="POL">Policial</option> <!-- Podesse remover o value, caso não queira ve-lo na lista -->
+                <option value="MED">Medico</option>
+                <option value="ADV">Advogado</option>
+                <!-- Se o usuario colocar uma opção fora da lista, ele poderá ver na lista futuramente, mas somente ele -->
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <!-- Usar o method="post" devido ao tamanho limite de arquivo e o textarea não posuir limite de quantidade caracteres -->
+            <textarea name="msg" id="imsg">
+
+            </textarea>
+        </p>
+
+        <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
