@@ -39,10 +39,12 @@ h1 {
     font-size: 2em;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
 }
+
 img {
-    text-align: center;
+    margin: auto;
 }
 
+img#phone { display: block; }
 img#tablet { display: none; }
 img#tv { display: none; }
 img#pc { display: none; }
