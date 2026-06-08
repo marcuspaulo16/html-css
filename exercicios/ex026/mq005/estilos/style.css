@@ -32,6 +32,11 @@ header > menu > ul > li > a {
     border-top: 2px solid #438F54;
 }
 
+header > menu > ul > li > a:hover {
+    background-color: #04330E;
+
+}
+
 main {
     width: 85vw;
     margin: auto;
