@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+div.container01 {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+div.item01 {
+    background-color: tomato;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.inicio01 {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.fim01 {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.container02 {
+    background-color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.item02 {
+    background-color: tomato;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.inicio02 {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.fim02 {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.container03 {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+div.item03 {
+    background-color: tomato;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+    width: 100px;
+}
+
+div.inicio03 {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.fim03 {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.container04 {
+    background-color: blue;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div.item04 {
+    background-color: tomato;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+    width: 100px;
+}
+
+div.inicio04 {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
+
+div.fim04 {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
