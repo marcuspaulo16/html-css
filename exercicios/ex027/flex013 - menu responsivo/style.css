@@ -26,7 +26,7 @@ header {
 
 h1 {
     padding-bottom: 10px;
-    flex: 0 0 300px;
+    flex: 0 0 250px;
 }
 
 nav {
@@ -44,6 +44,11 @@ nav > a {
     color: black;
 }
 
+nav > a:hover {
+    background-color: black;
+    color: white;
+}
+
 main {
     background-color: rgb(250, 92, 64);
     padding: 20px;
@@ -52,3 +57,4 @@ main {
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
 }
+
