@@ -63,7 +63,7 @@ main {
 .desc {
     background-color: var(--cor01);
 
-    width: 80vw;
+    width: 60vw;
 
     padding: 20px;
     margin: 20px;
@@ -71,6 +71,7 @@ main {
     border-radius: 25px;
     box-shadow: 3px 3px 4px var(--cor02);
 }
+
 /*
 p {
     border: 2px dashed red;
